@@ -1,0 +1,48 @@
+<div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="position-relative me-3 mb-3">
+                <img class="img-fluid rounded" src="/sigiriya/Screenshot 2564-08-02 at 10.14.55.png" alt="Sigiriya Image" style="object-fit: cover; width: 100%; height: auto;">
+            </div>
+            <div class="position-relative me-3 mb-3">
+                <img class="img-fluid rounded" src="/sigiriya/IMG_20190607_203423_967-1024x768.jpg" alt="Sigiriya Image" style="object-fit: cover; width: 100%; height: auto;">
+            </div>
+            <div class="position-relative me-3 mb-3">
+                <img class="img-fluid rounded" src="/sigiriya/Sigiriya-Frescoes.jpg" alt="Sigiriya Image" style="object-fit: cover; width: 100%; height: auto;">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <h1 class="m-0" style="color: #0d6efd; margin-top: 1.5rem;"><i class="fa fa-map-marker-alt me-3"></i>Sigiriya</h1>
+            <h1 class="mb-4">Discovering Sigiriya - An Unforgettable Adventure</h1>
+              <h4 class="mb-3">Destination:</h4>
+        <p class="lead">Sigiriya, Sri Lanka</p>
+        
+        <h4 class="mb-3">Rating:</h4>
+        <p class="lead">⭐️⭐️⭐️⭐️⭐️</p>
+        
+        <h4 class="mb-3">My Sigiriya Journey in Words:</h4>
+        <p class="lead">Embarking on a journey to Sigiriya, also known as Lion Rock, was an experience beyond compare. From the moment I laid eyes on this ancient marvel rising majestically from the plains of Sri Lanka, I knew I was in for an adventure of a lifetime.</p>
+        
+        <h4 class="mb-3">Exploring Sigiriya's Treasures:</h4>
+        <p class="lead">Ascending the staircases and pathways leading to the summit was like stepping into a storybook. Along the way, I marveled at the Sigiriya Frescoes, ancient damsels painted on the rock face, and felt a sense of awe as I passed through the giant Lion Paws marking the entrance to the summit. Reaching the top, I was greeted by the remains of King Kasyapa's palace, a testament to the grandeur of ancient Sri Lankan architecture. The intricate ruins and breathtaking water gardens left me spellbound, offering a glimpse into a bygone era.</p>
+        
+        <h4 class="mb-3">Finding Sanctuary in Sigiriya's Surroundings:</h4>
+        <p class="lead">After a day of exploration, I found solace in the serene accommodations offered by the nearby towns. Nestled amidst lush greenery, my guesthouse provided the perfect retreat, allowing me to recharge for another day of adventure.</p>
+        
+        <h4 class="mb-3">The Perfect Time to Visit:</h4>
+        <p class="lead">For the best experience, I recommend planning your visit during the dry seasons, when the weather is favorable and the crowds are thinner. Early mornings and late afternoons offer the ideal opportunity to explore Sigiriya in tranquility, away from the hustle and bustle of midday crowds.</p>
+        
+        <h4 class="mb-3">Tips for Fellow Travelers:</h4>
+        <ul>
+            <li>Prepare for the climb by wearing comfortable shoes and lightweight clothing.</li>
+            <li>Don't forget to pack essentials such as sunscreen, a hat, and plenty of water to stay hydrated.</li>
+            <li>Keep an eye out for the playful monkeys, but remember not to feed them to ensure a safe and enjoyable experience.</li>
+            <li>Above all, respect the historical significance of Sigiriya and tread lightly as you explore this ancient wonder.</li>
+        </ul>
+        
+        <h4 class="mb-3">In Conclusion:</h4>
+        <p class="lead">My visit to Sigiriya was nothing short of magical, leaving me with memories that will last a lifetime. Whether you're a history enthusiast, nature lover, or simply seeking adventure, Sigiriya offers an experience like no other. It's a destination that truly deserves a place on every traveler's bucket list.</p>
+            <!-- Rest of your content goes here -->
+        </div>
+    </div>
+</div>
