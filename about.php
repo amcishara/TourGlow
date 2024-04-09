@@ -79,14 +79,14 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.php" class="nav-item nav-link  ">Home</a>
-                    <a href="about.php" class="nav-item nav-link ">About</a>
+                    <a href="about.php" class="nav-item nav-link active ">About</a>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link active dropdown-toggle " data-bs-toggle="dropdown">Services</a>
+                        <a href="#" class="nav-link  dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
                             <a href="destination.php" class="dropdown-item" >Destinations</a>
                             <a href="booking.php" class="dropdown-item">Booking</a>
-                            <a href="team.php" class="dropdown-item">Travel Guides</a>
+                            <a href="travelGuide.php" class="dropdown-item">Travel Guides</a>
                             <a href="UserProfile.php" class="dropdown-item">User Profiles</a>
                             <a href="Niches.php" class="dropdown-item">Niches</a>
                         
@@ -96,7 +96,7 @@
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
-                            <a href="booking.php" class="dropdown-item">Google Map</a>
+                            <a href="Googlemap/index.php" class="dropdown-item">Google Map</a>
                             <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
                             <a href="calander.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -129,13 +129,132 @@
     <!-- Navbar & Hero End -->
 
 
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/arugambay2.jpg" alt="" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h6 class="section-title bg-white text-start m-0 pe-3" style="color: #0d6efd;">About Us</h6>
 
 
+                    <h1 class="mb-4">Welcome to <span class="text-info m-0">TourGlow</span></h1>
+                    <h6>Your Ultimate Sri Lankan Travel Companion</h6>
+                    
+                    <p class="mb-4">Explore the wonders of Sri Lanka with TourGlow, your personalized guide to enchanting destinations and unique experiences. Immerse yourself in the rich tapestry of Sri Lanka's culture, breathtaking landscapes, and unforgettable adventures—all meticulously curated for your journey of discovery.</p>
+                    <div class="row gy-2 gx-4 mb-4">
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Comprehensive Destination Guides</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Tailored Niche Experiences</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>User Contributions - Share Your Story</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Services Hub</p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Essential Tools for Travelers/p>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Your Travel Companion, 24/7</p>
+                        </div>
+                    </div>
+                    <a class="btn btn-info py-3 px-5 mt-2" href="about.php">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
 
 
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center px-3" style="color: #0d6efd;">Travel Guide</h6>
 
-     <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+                <h1 class="mb-5">Meet Our Guide</h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/team-4.jpg" alt="">
+                        </div>
+                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="text-center p-4">
+                            <h5 class="mb-0">Full Name</h5>
+                            <small>Designation</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Team End -->
+        
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">

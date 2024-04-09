@@ -35,7 +35,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-info m-0" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -47,9 +47,9 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>223 Main Street, Colombo 7 , Sri Lanka</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+94 123456789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>Info@TourGlow.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -68,7 +68,7 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0 shadow-sm sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top" style="z-index: 1000;">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top">
             <a href="" class="navbar-brand p-0">
                 <h1 class="m-0" style="color: #0d6efd;"><i class="fa fa-map-marker-alt me-3"></i>TourGlow</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -80,11 +80,11 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.php" class="nav-item nav-link  ">Home</a>
                     <a href="about.php" class="nav-item nav-link ">About</a>
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link ">Contact</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link active dropdown-toggle " data-bs-toggle="dropdown">Services</a>
+                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="destination.php" class="dropdown-item" >Destinations</a>
+                            <a href="destination.php" class="dropdown-item">Destinations</a>
                             <a href="booking.php" class="dropdown-item">Booking</a>
                             <a href="team.php" class="dropdown-item">Travel Guides</a>
                             <a href="UserProfile.php" class="dropdown-item">User Profiles</a>
@@ -97,15 +97,15 @@
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
                             <a href="booking.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
-                            <a href="calander.php" class="dropdown-item">Event Calendar</a>
+                            <a href="team.php" class="dropdown-item">Budget calculator</a>
+                            <a href="testimonial.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         
                         </div>
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -127,28 +127,76 @@
         </div>
     </div>
     <!-- Navbar & Hero End -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- Replace this content with Temple of the Tooth Relic details -->
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="/temple of th tooth relic/kandy-lake-and-the-temple.jpg" alt="Temple of the Tooth Relic Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="/temple of th tooth relic/temple-of-tooth-06.jpg" alt="Temple of the Tooth Relic Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="/temple of th tooth relic/temple-sacred-tooth-relic-kandy-sri-lanka.jpg" alt="Temple of the Tooth Relic Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="m-0" style="color: #0d6efd; margin-top: 1.5rem;"><i class="fa fa-map-marker-alt me-3"></i>Temple of the Tooth Relic</h1>
+                    <h1 class="mb-4">Welcome to <span class="text-info">Sri Lanka's Sacred Buddhist Shrine</span></h1>
+                    <p class="lead mb-4">The Temple of the Tooth Relic (Sri Dalada Maligawa) in Kandy is Sri Lanka's most revered Buddhist shrine and a UNESCO World Heritage Site. It houses the sacred tooth relic of the Buddha, a symbol of both religious devotion and political power throughout Sri Lankan history.</p>
+                    
+                    <h4 class="mb-3">Things to See and Experience:</h4>
+                    <ul>
+                        <li>Admire the elaborate golden canopy that enshrines the sacred tooth relic.</li>
+                        <li>Explore the intricately decorated chambers and learn about the temple's history and traditions at the museum.</li>
+                        <li>Witness the ceremonial offerings and drumming that take place throughout the day. (Check timings beforehand)</li>
+                        <li>If possible, time your visit to coincide with the Esala Perahera festival, a spectacular ten-day procession where a replica of the tooth relic is paraded on a richly decorated elephant.</li>
+                        <li>Roam the larger temple complex, including other shrines, the Royal Palace, and the serene Kandy Lake.</li>
+                    </ul>
+                    
+                    <h4 class="mb-3">Getting There:</h4>
+                    <p class="mb-4">The Temple of the Tooth Relic is located in the heart of Kandy, easily accessible by bus, train, or taxi from other major cities in Sri Lanka.</p>
+                    
+                    <h4 class="mb-3">Best Time to Visit:</h4>
+                    <p class="mb-4">The Temple is open year-round. Plan your visit for the morning or evening rituals to experience the vibrant spiritual atmosphere.</p>
+                    
+                    <h4 class="mb-3">Tips:</h4>
+                    <ul>
+                        <li>Dress modestly with shoulders and knees covered.</li>
+                        <li>Remove shoes and hats before entering the temple.</li>
+                        <li>Be respectful of worshippers and the sacred environment.</li>
+                        <li>Photography restrictions may apply in certain areas.</li>
+                        <li>Allocate ample time for your visit as there's much to see within the complex.</li>
+                    </ul>
+                    
+                    <a class="btn btn-info py-3 px-5 mt-2" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
 
-
-
-
-
-
-
-     <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Company</h4>
                     <a class="btn btn-link nav-item nav-link active" href="about.php">About Us</a>
-                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link nav-item nav-link active" href="contact.php">Contact Us</a>
                     <a class="btn btn-link" href="">Privacy Policy</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>223 Main Street, Colombo 7 ,Sri Lanka</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 6789</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info@TourGlow.com</p>
                     <div class="d-flex pt-2">
@@ -191,21 +239,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">TourGlow</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-                      </a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!-- Footer End -->
 

@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -128,13 +128,28 @@
     </div>
     <!-- Navbar & Hero End -->
 
+    <div class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-info m-0 px-3">Destination</h6>
+                <h1 class="mb-5">Popular Destination</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="Arugambay.php">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/arugambay3.jpg" alt=""
+                            style="object-fit: cover;">
+                        
+                        <div class="bg-white text-info m-0 fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Arugambay
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
 
-
-
-
-
-
-     <!-- Footer Start -->
+       <!-- Footer Start -->
        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
