@@ -30,12 +30,21 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+  ></script>
+  <script type="text/javascript">
+    (function () {
+      emailjs.init("J4c9ZHnXYdomVl_OF");
+    })();
+  </script>
 </head>
 
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-info m-0" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-info" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -47,9 +56,9 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>223 Main Street, Colombo 7 , Sri Lanka</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+94 123456789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>Info@TourGlow.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -68,7 +77,7 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0 shadow-sm sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top" style="z-index: 1000;">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top">
             <a href="" class="navbar-brand p-0">
                 <h1 class="m-0" style="color: #0d6efd;"><i class="fa fa-map-marker-alt me-3"></i>TourGlow</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -78,34 +87,34 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.php" class="nav-item nav-link  ">Home</a>
-                    <a href="about.php" class="nav-item nav-link active ">About</a>
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
-                    <!-- <div class="nav-item dropdown">
-                        <a href="#" class="nav-link  dropdown-toggle " data-bs-toggle="dropdown">Services</a>
+                    <a href="index3.php" class="nav-item nav-link  ">Home</a>
+                    <a href="about2.php" class="nav-item nav-link ">About</a>
+                    <a href="contact2.php" class="nav-item nav-link active">Contact</a>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="destination.php" class="dropdown-item" >Destinations</a>
+                            <a href="destination.php" class="dropdown-item">Destinations</a>
                             <a href="booking.php" class="dropdown-item">Booking</a>
-                            <a href="travelGuide.php" class="dropdown-item">Travel Guides</a>
+                            <a href="team.php" class="dropdown-item">Travel Guides</a>
                             <a href="UserProfile.php" class="dropdown-item">User Profiles</a>
                             <a href="Niches.php" class="dropdown-item">Niches</a>
                         
                         </div>
-                    </div> -->
-                    <!-- <div class="nav-item dropdown">
+                    </div>
+                    <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
-                            <a href="Googlemap/index.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
-                            <a href="calander.php" class="dropdown-item">Event Calendar</a>
+                            <a href="booking.php" class="dropdown-item">Google Map</a>
+                            <a href="budjetCalculator.php" class="dropdown-item">Budget calculator</a>
+                            <a href="testimonial.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         
                         </div>
-                    </div> -->
+                    </div>
                    
                 </div>
-                <a href="signup/index.php" class="btn btn-info rounded-pill py-2 px-4">signup</a>
+                <!-- <a href="signup/index.php" class="btn btn-info rounded-pill py-2 px-4">signup</a> -->
             </div>
         </nav>
 
@@ -113,7 +122,7 @@
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us </h1>
+                        <h1 class="display-3 text-white mb-3 animated slideInDown">Enjoy Your Vacation With Us</h1>
                         <p class="fs-4 text-white mb-4 animated slideInDown">" Unleash Adventure
                             Craft unforgettable memories in extraordinary destinations</p>
                             <p class="fs-4 text-white mb-4 animated slideInDown">Your journey starts now "</p>
@@ -129,129 +138,92 @@
     <!-- Navbar & Hero End -->
 
 
-    <!-- About Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="img-fluid position-absolute w-100 h-100" src="img/arugambay2.jpg" alt="" style="object-fit: cover;">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="section-title bg-white text-start m-0 pe-3" style="color: #0d6efd;">About Us</h6>
-
-
-                    <h1 class="mb-4">Welcome to <span class="text-info m-0">TourGlow</span></h1>
-                    <h6>Your Ultimate Sri Lankan Travel Companion</h6>
-                    
-                    <p class="mb-4">Explore the wonders of Sri Lanka with TourGlow, your personalized guide to enchanting destinations and unique experiences. Immerse yourself in the rich tapestry of Sri Lanka's culture, breathtaking landscapes, and unforgettable adventures—all meticulously curated for your journey of discovery.</p>
-                    <div class="row gy-2 gx-4 mb-4">
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Comprehensive Destination Guides</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Tailored Niche Experiences</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>User Contributions - Share Your Story</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Services Hub</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Essential Tools for Travelers/p>
-                        </div>
-                        <div class="col-sm-6">
-                            <p class="mb-0"><i class="fa fa-arrow-right text-info m-0 me-2"></i>Your Travel Companion, 24/7</p>
-                        </div>
-                    </div>
-                    <a class="btn btn-info py-3 px-5 mt-2" href="about.php">Read More</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- About End -->
-
-
-    <!-- Team Start -->
+    <!-- Contact Start -->
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center px-3" style="color: #0d6efd;">Travel Guide</h6>
-
-                <h1 class="mb-5">Meet Our Guide</h1>
+                <h6 class="section-title bg-white text-center px-3 " style="color: #0d6efd;">Contact Us</h6>
+                <h1 class="mb-5">Contact For Any Query</h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h5>Get In Touch</h5>
+                    <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos</p>
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #0d6efd;">
+                            <i class="fa fa-map-marker-alt text-white"></i>
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                        <div class="ms-3">
+                            <h5 style="color: #0d6efd;">Office</h5>
+                            <p class="mb-0" >123 Street, New York, USA</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
+                    <div class="d-flex align-items-center mb-4">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #0d6efd;">
+                            <i class="fa fa-phone-alt text-white"></i>
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                        <div class="ms-3">
+                            <h5 style="color: #0d6efd;">Mobile</h5>
+                            <p class="mb-0" >+012 345 67890</p>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
+                    <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center justify-content-center flex-shrink-0" style="width: 50px; height: 50px; background-color: #0d6efd;">
+                            <i class="fa fa-envelope-open text-white"></i>
                         </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
+                        <div class="ms-3">
+                            <h5 style="color: #0d6efd;">Email</h5>
+                            <p class="mb-0" >info@example.com</p>
                         </div>
                     </div>
+                    
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item">
-                        <div class="overflow-hidden">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <div class="position-relative d-flex justify-content-center" style="margin-top: -19px;">
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-square mx-1" href=""><i class="fab fa-instagram"></i></a>
-                        </div>
-                        <div class="text-center p-4">
-                            <h5 class="mb-0">Full Name</h5>
-                            <small>Designation</small>
-                        </div>
-                    </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <iframe class="position-relative rounded w-100 h-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.6001896859098!2d79.84962387403108!3d6.9382936182061545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259202a86afa9%3A0xcb532a079d7fbcf2!2s223%20Main%20St%2C%20Colombo%2001100!5e0!3m2!1sen!2slk!4v1706184864950!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+                        frameborder="0" style="min-height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
                 </div>
+                <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.5s">
+                    <form id="contactForm">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                    <label for="name">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-floating">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                    <label for="email">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject">
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button class="btn btn-info w-100 py-3" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                
             </div>
         </div>
     </div>
-    <!-- Team End -->
-        
+    
+    <!-- Contact End -->
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
@@ -260,14 +232,14 @@
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Company</h4>
                     <a class="btn btn-link nav-item nav-link active" href="about.php">About Us</a>
-                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link nav-item nav-link active" href="contact.php">Contact Us</a>
                     <a class="btn btn-link" href="">Privacy Policy</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>223 Main Street, Colombo 7 ,Sri Lanka</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 6789</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info@TourGlow.com</p>
                     <div class="d-flex pt-2">
@@ -310,21 +282,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">TourGlow</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-                      </a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!-- Footer End -->
 
@@ -334,6 +292,7 @@
 
 
     <!-- JavaScript Libraries -->
+   
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>

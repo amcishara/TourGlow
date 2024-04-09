@@ -90,7 +90,7 @@
                     <a href="index.php" class="nav-item nav-link  ">Home</a>
                     <a href="about.php" class="nav-item nav-link ">About</a>
                     <a href="contact.php" class="nav-item nav-link active">Contact</a>
-                    <div class="nav-item dropdown">
+                    <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
                             <a href="destination.php" class="dropdown-item">Destinations</a>
@@ -100,8 +100,8 @@
                             <a href="Niches.php" class="dropdown-item">Niches</a>
                         
                         </div>
-                    </div>
-                    <div class="nav-item dropdown">
+                    </div> -->
+                    <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
@@ -111,10 +111,10 @@
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         
                         </div>
-                    </div>
+                    </div> -->
                    
                 </div>
-                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
+                <a href="signup/index.php" class="btn btn-info rounded-pill py-2 px-4">signup</a>
             </div>
         </nav>
 
