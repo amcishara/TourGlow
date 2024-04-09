@@ -97,7 +97,7 @@
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
                             <a href="booking.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
+                            <a href="budjetCalculator.php" class="dropdown-item">Budget calculator</a>
                             <a href="calander.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         

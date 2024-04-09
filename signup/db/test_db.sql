@@ -51,7 +51,7 @@ INSERT INTO `users` (`id`, `user_name`, `password`, `name`) VALUES
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+  ADD info KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables

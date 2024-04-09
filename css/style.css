@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #0d6efd;
+    --info: #0d6efd;
     --secondary: #FE8800;
     --light: #F5F5F5;
     --dark: #14141F;
@@ -53,7 +53,7 @@ button:not(.footer button) {
     transition: .5s;
 }
 
-.btn.btn-primary,
+.btn.btn-info,
 .btn.btn-secondary {
     color: #FFFFFF;
 }
@@ -171,7 +171,7 @@ button:not(.footer button) {
         height: 2px;
         bottom: -1px;
         left: 50%;
-        background: var(--primary);
+        background: var(--info);
         transition: .5s;
     }
 
@@ -216,7 +216,7 @@ button:not(.footer button) {
     height: 2px;
     top: 4px;
     left: -40px;
-    background: var(--primary);
+    background: var(--info);
     z-index: -1;
 }
 
@@ -227,7 +227,7 @@ button:not(.footer button) {
     height: 2px;
     bottom: 5px;
     left: -60px;
-    background: var(--primary);
+    background: var(--info);
     z-index: -1;
 }
 
@@ -254,7 +254,7 @@ button:not(.footer button) {
 }
 
 .calender-item:hover {
-    background: var(--primary);
+    background: var(--info);
 }
 
 .calender-item * {
@@ -272,7 +272,7 @@ button:not(.footer button) {
 }
 
 .service-item:hover {
-    background: var(--primary);
+    background: var(--info);
 }
 
 .service-item * {
@@ -332,13 +332,13 @@ button:not(.footer button) {
 
 .team-item .btn {
     background: #FFFFFF;
-    color: var(--primary);
+    color: var(--info);
     border-radius: 20px;
-    border-bottom: 1px solid var(--primary);
+    border-bottom: 1px solid var(--info);
 }
 
 .team-item .btn:hover {
-    background: var(--primary);
+    background: var(--info);
     color: #FFFFFF;
 }
 
@@ -386,8 +386,8 @@ button:not(.footer button) {
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
-    background: var(--primary) !important;
-    border-color: var(--primary) !important;
+    background: var(--info) !important;
+    border-color: var(--info) !important;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item * {
@@ -413,8 +413,8 @@ button:not(.footer button) {
 }
 
 .testimonial-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--info);
+    border-color: var(--info);
 }
 
 
@@ -434,7 +434,7 @@ button:not(.footer button) {
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--info);
 }
 
 .footer .btn.btn-link {

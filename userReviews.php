@@ -109,7 +109,7 @@
             </div>
         </nav>
 
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container-fluid bg-info py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -142,7 +142,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" alt="Testimonial 1">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -157,7 +157,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" alt="Testimonial 2">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -172,7 +172,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" alt="Testimonial 3">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -187,7 +187,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" alt="Testimonial 4">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -202,7 +202,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" alt="Testimonial 1">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -217,7 +217,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" alt="Testimonial 2">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -232,7 +232,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" alt="Testimonial 3">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -247,7 +247,7 @@
                     <div class="testimonial-item bg-white text-center border p-4">
                         <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" alt="Testimonial 4">
                         <h5 class="mb-0">John Doe</h5>
-                        <p>New York, USA</p>
+                        <p>Colombo 7 , Sri Lanka</p>
                         <div class="star-feedback">
                             <i class="fa fa-star text-warning"></i>
                             <i class="fa fa-star text-warning"></i>
@@ -320,7 +320,7 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <input class="form-control border-info w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-info py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>

@@ -35,7 +35,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-info" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -47,7 +47,7 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, Colombo 7 , Sri Lanka</small>
                     <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
                     <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
                 </div>
@@ -70,7 +70,7 @@
     <div class="container-fluid position-relative p-0">
         <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>TourGlow</h1>
+                <h1 class="text-info m-0"><i class="fa fa-map-marker-alt me-3"></i>TourGlow</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -94,11 +94,11 @@
                     </div>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                 </div>
-                <!-- <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a> -->
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container-fluid bg-info py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -122,7 +122,7 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Packages</h6>
+                <h6 class="section-title bg-white text-center text-info px-3">Packages</h6>
                 <h1 class="mb-5">Awesome Packages</h1>
             </div>
             <div class="row g-4 justify-content-center">
@@ -132,23 +132,23 @@
                             <img class="img-fluid" src="img/package-1.jpg" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Thailand</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-info me-2"></i>Thailand</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-info me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h3 class="mb-0">$149.00</h3>
                             <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                                <a href="#" class="btn btn-sm btn-info px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="btn btn-sm btn-info px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -159,23 +159,23 @@
                             <img class="img-fluid" src="img/package-2.jpg" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Indonesia</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-info me-2"></i>Indonesia</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-info me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h3 class="mb-0">$139.00</h3>
                             <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                                <a href="#" class="btn btn-sm btn-info px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="btn btn-sm btn-info px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -186,23 +186,23 @@
                             <img class="img-fluid" src="img/package-3.jpg" alt="">
                         </div>
                         <div class="d-flex border-bottom">
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Malaysia</small>
-                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-primary me-2"></i>3 days</small>
-                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-primary me-2"></i>2 Person</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-info me-2"></i>Malaysia</small>
+                            <small class="flex-fill text-center border-end py-2"><i class="fa fa-calendar-alt text-info me-2"></i>3 days</small>
+                            <small class="flex-fill text-center py-2"><i class="fa fa-user text-info me-2"></i>2 Person</small>
                         </div>
                         <div class="text-center p-4">
                             <h3 class="mb-0">$189.00</h3>
                             <div class="mb-3">
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
-                                <small class="fa fa-star text-primary"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
+                                <small class="fa fa-star text-info"></small>
                             </div>
                             <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit diam amet diam eos</p>
                             <div class="d-flex justify-content-center mb-2">
-                                <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                                <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
+                                <a href="#" class="btn btn-sm btn-info px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
+                                <a href="#" class="btn btn-sm btn-info px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
                             </div>
                         </div>
                     </div>
@@ -280,40 +280,40 @@
     <div class="container-xxl py-5">
         <div class="container">
             <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Process</h6>
+                <h6 class="section-title bg-white text-center text-info px-3">Process</h6>
                 <h1 class="mb-5">3 Easy Steps</h1>
             </div>
             <div class="row gy-5 gx-4 justify-content-center">
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="position-relative border border-info pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-info rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
                             <i class="fa fa-globe fa-3x text-white"></i>
                         </div>
                         <h5 class="mt-4">Choose A Destination</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <hr class="w-25 mx-auto bg-info mb-1">
+                        <hr class="w-50 mx-auto bg-info mt-0">
                         <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="position-relative border border-info pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-info rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
                             <i class="fa fa-dollar-sign fa-3x text-white"></i>
                         </div>
                         <h5 class="mt-4">Pay Online</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <hr class="w-25 mx-auto bg-info mb-1">
+                        <hr class="w-50 mx-auto bg-info mt-0">
                         <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
+                    <div class="position-relative border border-info pt-5 pb-4 px-4">
+                        <div class="d-inline-flex align-items-center justify-content-center bg-info rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
                             <i class="fa fa-plane fa-3x text-white"></i>
                         </div>
                         <h5 class="mt-4">Fly Today</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
+                        <hr class="w-25 mx-auto bg-info mb-1">
+                        <hr class="w-50 mx-auto bg-info mt-0">
                         <p class="mb-0">Tempor erat elitr rebum clita dolor diam ipsum sit diam amet diam eos erat ipsum et lorem et sit sed stet lorem sit</p>
                     </div>
                 </div>
@@ -337,7 +337,7 @@
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, Colombo 7 , Sri Lanka</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
@@ -374,8 +374,8 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control border-info w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <button type="button" class="btn btn-info py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -405,7 +405,7 @@
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-info btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
