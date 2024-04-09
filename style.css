@@ -20,11 +20,50 @@ a {
     text-decoration: none;
 }
 
-.header_wrapper header {
+.pop2 {
+    height: 400px;
+    width: 100%;
+}
+
+.ul12 {
+    /* background-color: #f0f0f0; */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Styles for the .list ul */
+.list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.list li {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.post-content,
+.groups-content,
+.photo-content {
+    display: none;
+}
+
+
+.list li:hover {
+    background-color: #eae9e9;
+    border-radius: 3px;
+}
+
+/* .header_wrapper header {
     width: 100%;
     background: url("./bg.jpeg") no-repeat 50% 20% / cover;
     min-height: calc(100px + 15vw);
-}
+} */
 
 .header_wrapper .cols_container .left_col {
     padding: 25px 20px;
@@ -162,7 +201,14 @@ a {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
     gap: 20px;
+
 }
+
+/* .header_wrapper .cols_container .right_col .photos {
+    height: 365px;
+    overflow: auto;
+    padding: 17px;
+} */
 
 .header_wrapper .cols_container .right_col .photos img {
     max-width: 100%;
@@ -194,7 +240,7 @@ a {
     .header_wrapper .cols_container .right_col .photos {
         height: 365px;
         overflow: auto;
-        padding: 0 0 30px;
+        padding: 19px;
     }
 }
 
@@ -211,4 +257,89 @@ a {
     .header_wrapper .cols_container .right_col nav button {
         margin-top: 0;
     }
+}
+
+/*six photos style   */
+.header_wrapper .cols_container .right_col .photos img {
+    max-width: 100%;
+    display: block;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+.header_wrapper .cols_container .right_col .photos img:hover {
+    transform: scale(1.1);
+    /* Increase the size by 10% on hover */
+}
+
+.header_wrapper .cols_container .right_col nav ul li {
+    transition: transform 0.3s ease-in-out;
+}
+
+.header_wrapper .cols_container .right_col nav ul li:hover {
+    transform: scale(1.1);
+    /* Increase the size by 10% on hover */
+}
+
+.header_wrapper .cols_container .right_col nav ul li:nth-child(2) a {
+    font-weight: bold;
+    color: inherit;
+    /* Inherits the color from the parent element */
+}
+
+.header_wrapper .cols_container .right_col nav ul li:nth-child(2) a {
+    font-weight: bold;
+    color: inherit;
+    /* Inherits the color from the parent element */
+}
+
+/* Your existing CSS styles here */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
 }
