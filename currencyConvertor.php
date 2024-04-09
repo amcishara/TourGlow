@@ -78,13 +78,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="index.php" class="nav-item nav-link  ">Home</a>
+                    <a href="index.php" class="nav-item nav-link ">Home</a>
                     <a href="about.php" class="nav-item nav-link ">About</a>
                     <a href="contact.php" class="nav-item nav-link">Contact</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link active dropdown-toggle " data-bs-toggle="dropdown">Services</a>
+                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="destination.php" class="dropdown-item" >Destinations</a>
+                            <a href="destination.php" class="dropdown-item">Destinations</a>
                             <a href="booking.php" class="dropdown-item">Booking</a>
                             <a href="team.php" class="dropdown-item">Travel Guides</a>
                             <a href="UserProfile.php" class="dropdown-item">User Profiles</a>
@@ -93,23 +93,23 @@
                         </div>
                     </div>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
+                        <a href="#" class="nav-link active  dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
-                            <a href="booking.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
+                            <a href="./Googlemap/index.php" class="dropdown-item">Google Map</a>
+                            <a href="budjetCalculator.php" class="dropdown-item">Budget calculator</a>
                             <a href="calander.php" class="dropdown-item">Event Calendar</a>
-                            <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
+                            <a href="/weather/weather.php" class="dropdown-item">Weather forecast</a>
                         
                         </div>
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+        <div class="container-fluid bg-info py-5 mb-5 hero-header">
             <div class="container py-5">
                 <div class="row justify-content-center py-5">
                     <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
@@ -128,14 +128,92 @@
     </div>
     <!-- Navbar & Hero End -->
 
-
-
-
-
-
-
+    <div class="container-md mt-5" style="max-width: 500px;"> <!-- Set your desired max-width -->
+        <div class="converter p-4 border rounded mx-auto">
+            <h1 class="text-center" style="color: #0d6efd;">TourGlow Currency Converter</h1>
+            <div class="input-container mb-4">
+                <label for="fromCurrency" class="form-label">From:</label>
+                <select id="fromCurrency" class="form-select"></select>
+                <input type="number" id="amount" placeholder="Amount" class="form-control mt-2">
+            </div>
+            <div class="input-container mb-4">
+                <label for="toCurrency" class="form-label">To:</label>
+                <select id="toCurrency" class="form-select"></select>
+                <input type="text" id="convertedAmount" readonly class="form-control mt-2">
+            </div>
+            <button id="convertBtn" class="btn btn-info rounded-pill py-2 px-4">Convert</button>
+        </div>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const fromCurrencySelect = document.getElementById("fromCurrency");
+            const toCurrencySelect = document.getElementById("toCurrency");
+            const amountInput = document.getElementById("amount");
+            const convertedAmountInput = document.getElementById("convertedAmount");
+            const convertBtn = document.getElementById("convertBtn");
+    
+            // Populate currency dropdowns
+            fetchCurrencies();
+    
+            // Add click event to the convert button
+            convertBtn.addEventListener("click", convertCurrency);
+    
+            async function fetchCurrencies() {
+                try {
+                    const response = await fetch("https://v6.exchangerate-api.com/v6/4458cd8bfa94b78cbf5f50b0/latest/USD");
+                    const data = await response.json();
+    
+                    if (data && data.conversion_rates) {
+                        // Populate 'From' currency dropdown
+                        populateCurrencyDropdown(fromCurrencySelect, data.conversion_rates);
+    
+                        // Populate 'To' currency dropdown
+                        populateCurrencyDropdown(toCurrencySelect, data.conversion_rates);
+                    }
+                } catch (error) {
+                    console.error("Error fetching currencies:", error);
+                }
+            }
+    
+            function populateCurrencyDropdown(selectElement, conversionRates) {
+                for (const currency in conversionRates) {
+                    const option = document.createElement("option");
+                    option.value = currency;
+                    option.text = currency;
+                    selectElement.add(option);
+                }
+            }
+    
+            async function convertCurrency() {
+                const fromCurrency = fromCurrencySelect.value;
+                const toCurrency = toCurrencySelect.value;
+                const amount = amountInput.value;
+    
+                if (!fromCurrency || !toCurrency || !amount) {
+                    alert("Please select currencies and enter an amount.");
+                    return;
+                }
+    
+                try {
+                    const response = await fetch(`https://v6.exchangerate-api.com/v6/4458cd8bfa94b78cbf5f50b0/latest/${fromCurrency}`);
+                    const data = await response.json();
+    
+                    if (data && data.conversion_rates) {
+                        const exchangeRate = data.conversion_rates[toCurrency];
+                        const convertedAmount = (amount * exchangeRate).toFixed(2);
+                        convertedAmountInput.value = convertedAmount;
+                    }
+                } catch (error) {
+                    console.error("Error converting currency:", error);
+                }
+            }
+        });
+    </script>
+    
+    
      <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -185,7 +263,7 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                        <input class="form-control border-info w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
                         <button type="button" class="btn btn-info py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>

@@ -96,7 +96,7 @@
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
-                            <a href="booking.php" class="dropdown-item">Google Map</a>
+                            <a href="/Googlemap/index.php" class="dropdown-item">Google Map</a>
                             <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
                             <a href="calander.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -128,13 +128,56 @@
     </div>
     <!-- Navbar & Hero End -->
 
+    <div class="container-xxl py-5 destination">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-info m-0 px-3">Destination</h6>
+                <h1 class="mb-5">Popular Destination</h1>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-7 col-md-6">
+                    <div class="row g-3">
+                        <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.1s">
+                            <a class="position-relative d-block overflow-hidden" href="Ella.php">
+                                <img class="img-fluid" src="img/Ella.png" alt="">
+    
+                                <div class="bg-white text-info m-0 fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                                    Ella</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                            <a class="position-relative d-block overflow-hidden" href="sigiriya.php">
+                                <img class="img-fluid" src="img/Sigiriya.jpg" alt="">
+    
+                                <div class="bg-white text-info m-0 fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                                    Sigirya</div>
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-12 wow zoomIn" data-wow-delay="0.5s">
+                            <a class="position-relative d-block overflow-hidden" href="temple-kandy.php">
+                                <img class="img-fluid" src="img/DALADA2.png" alt="">
+                              
+                                <div class="bg-white text-info m-0 fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">
+                                    Temple of the Tooth Relic</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 wow zoomIn" data-wow-delay="0.7s" style="min-height: 350px;">
+                    <a class="position-relative d-block h-100 overflow-hidden" href="Arugambay.php">
+                        <img class="img-fluid position-absolute w-100 h-100" src="img/arugambay3.jpg" alt=""
+                            style="object-fit: cover;">
+                        
+                        <div class="bg-white text-info m-0 fw-bold position-absolute bottom-0 end-0 m-3 py-1 px-2">Arugambay
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
 
-
-
-
-
-
-     <!-- Footer Start -->
+       <!-- Footer Start -->
        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">

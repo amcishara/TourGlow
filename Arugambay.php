@@ -35,7 +35,7 @@
 <body>
     <!-- Spinner Start -->
     <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-info m-0" style="width: 3rem; height: 3rem;" role="status">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
     </div>
@@ -47,9 +47,9 @@
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
-                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>223 Main Street, Colombo 7 , Sri Lanka</small>
-                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+94 123456789</small>
-                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>Info@TourGlow.com</small>
+                    <small class="me-3 text-light"><i class="fa fa-map-marker-alt me-2"></i>123 Street, New York, USA</small>
+                    <small class="me-3 text-light"><i class="fa fa-phone-alt me-2"></i>+012 345 6789</small>
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
                 </div>
             </div>
             <div class="col-lg-4 text-center text-lg-end">
@@ -68,7 +68,7 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0 shadow-sm sticky-top">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top" style="z-index: 1000;">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 shadow-sm sticky-top">
             <a href="" class="navbar-brand p-0">
                 <h1 class="m-0" style="color: #0d6efd;"><i class="fa fa-map-marker-alt me-3"></i>TourGlow</h1>
                 <!-- <img src="img/logo.png" alt="Logo"> -->
@@ -80,11 +80,11 @@
                 <div class="navbar-nav ms-auto py-0">
                     <a href="index.php" class="nav-item nav-link  ">Home</a>
                     <a href="about.php" class="nav-item nav-link ">About</a>
-                    <a href="contact.php" class="nav-item nav-link">Contact</a>
+                    <a href="contact.php" class="nav-item nav-link ">Contact</a>
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link active dropdown-toggle " data-bs-toggle="dropdown">Services</a>
+                        <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Services</a>
                         <div class="dropdown-menu m-0">
-                            <a href="destination.php" class="dropdown-item" >Destinations</a>
+                            <a href="destination.php" class="dropdown-item">Destinations</a>
                             <a href="booking.php" class="dropdown-item">Booking</a>
                             <a href="team.php" class="dropdown-item">Travel Guides</a>
                             <a href="UserProfile.php" class="dropdown-item">User Profiles</a>
@@ -97,15 +97,15 @@
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
                             <a href="booking.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
-                            <a href="calander.php" class="dropdown-item">Event Calendar</a>
+                            <a href="team.php" class="dropdown-item">Budget calculator</a>
+                            <a href="testimonial.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         
                         </div>
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -127,28 +127,82 @@
         </div>
     </div>
     <!-- Navbar & Hero End -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- Replace this content with Arugam Bay details -->
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="/Arugambay/Arugam-Bay (1).jpg" alt="Arugam Bay Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="/Arugambay/arugam-bay.jpg" alt="Arugam Bay Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="./arugamBay/e8dcf062481aa6daa15d6a595f47d59c.jpg" alt="Arugam Bay Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                    <div class="position-relative me-3 mb-3">
+                        <img class="img-fluid rounded" src="./arugamBay/Arugam-Bay (2).jpg" alt="Arugam Bay Image" style="object-fit: cover; width: 100%; height: auto;">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <h1 class="m-0" style="color: #0d6efd; margin-top: 1.5rem;"><i class="fa fa-map-marker-alt me-3"></i>Arugam Bay</h1>
+                    <h1 class="mb-4">Sri Lanka's Surf Paradise and Coastal Gem</h1>
+                    <p class="lead mb-4">Arugam Bay, affectionately known as 'A Bay', is a haven for surfers and beach lovers on Sri Lanka's east coast. Its laid-back vibes, world-class waves, and vibrant atmosphere make it a must-visit.</p>
+                    
+                    <h4 class="mb-3">Things to Do and See:</h4>
+                    <ul class="mb-4">
+                        <li>Surfing: Arugam Bay boasts several iconic surf breaks including its main point break, offering thrilling rides for experienced surfers. Beginners will find gentler spots too.</li>
+                        <li>Beyond Surfing: Swim in the warm waters, sunbathe on the pristine beaches, and explore the local boutiques and restaurants along the coast.</li>
+                        <li>Lagoon Safaris: Take a boat trip on Pottuvil Lagoon, spotting crocodiles, elephants bathing, and diverse birdlife.</li>
+                        <li>Kudumbigala Monastery: Hike to this ancient rock monastery for panoramic views and a glimpse into the region's history.</li>
+                        <li>Kumana National Park: Embark on a safari in Kumana National Park, famous for its leopards and diverse wildlife.</li>
+                    </ul>
+                    
+                    <h4 class="mb-3">Getting There:</h4>
+                    <p class="mb-4">Arugam Bay is accessible by bus or taxi from major cities on the East Coast. There are also limited regional flights available.</p>
+                    
+                    <h4 class="mb-3">Accommodation:</h4>
+                    <p class="mb-4">Arugam Bay offers a variety of accommodation options, from laid-back surf camps and cozy guesthouses to more upscale resorts.</p>
+                    
+                    <h4 class="mb-3">Best Time to Visit:</h4>
+                    <p class="mb-4">The main surf season runs from April to October. For quieter beaches and more relaxed vibes, consider the shoulder seasons.</p>
+                    
+                    <h4 class="mb-3">Tips:</h4>
+                    <ul>
+                        <li>Bring sunscreen, insect repellent, and a hat for sun protection.</li>
+                        <li>If you're new to surfing, consider taking lessons from one of the many surf schools.</li>
+                        <li>Respect the local culture and dress modestly when outside of beach areas.</li>
+                        <li>Take a jeep ride to explore nearby beaches like Peanut Farm and Whiskey Point.</li>
+                    </ul>
+                    
+                    <a class="btn btn-info py-3 px-5 mt-2" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
 
-
-
-
-
-
-
-     <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Company</h4>
                     <a class="btn btn-link nav-item nav-link active" href="about.php">About Us</a>
-                    <a class="btn btn-link" href="contact.php">Contact Us</a>
+                    <a class="btn btn-link nav-item nav-link active" href="contact.php">Contact Us</a>
                     <a class="btn btn-link" href="">Privacy Policy</a>
                     <a class="btn btn-link" href="">Terms & Condition</a>
                     <a class="btn btn-link" href="">FAQs & Help</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
                     <h4 class="text-white mb-3">Contact</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>223 Main Street, Colombo 7 ,Sri Lanka</p>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 6789</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info@TourGlow.com</p>
                     <div class="d-flex pt-2">
@@ -191,21 +245,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">TourGlow</a>, All Right Reserved.
-
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-                      </a>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                       
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
     <!-- Footer End -->
 

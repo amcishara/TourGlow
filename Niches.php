@@ -96,8 +96,8 @@
                         <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown">Tools</a>
                         <div class="dropdown-menu m-0">
                             <a href="currencyConvertor.php" class="dropdown-item">Currency Convertor</a>
-                            <a href="booking.php" class="dropdown-item">Google Map</a>
-                            <a href="budgetCalculator.php" class="dropdown-item">Budget calculator</a>
+                            <a href="/Googlemap/index.php" class="dropdown-item">Google Map</a>
+                            <a href="budjetCalculator.php" class="dropdown-item">Budget calculator</a>
                             <a href="calander.php" class="dropdown-item">Event Calendar</a>
                             <a href="testimonial.php" class="dropdown-item">Weather forecast</a>
                         
@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -128,13 +128,106 @@
     </div>
     <!-- Navbar & Hero End -->
 
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-info m-0 px-3">Services</h6>
+                <h1 class="mb-5">Our Services</h1>
+            </div>
+            <div class="row g-4">
+                <!-- Beach and Coastal Bliss -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="beachAndCoastalBliss.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Beach and Coastal Bliss</h5>
+                            <p style="color: #0d6efd;">Indulge in the beauty of Sri Lanka's extensive coastline with stunning beaches, water sports, and vibrant nightlife.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- History and Heritage Exploration -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="historyAndHeritage.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>History and Heritage Exploration</h5>
+                            <p style="color: #0d6efd;">Explore the rich history of Sri Lanka with our curated experiences to ancient cities, historical sites, and cultural landmarks.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Hill Country Retreats -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="hillCountryRetreats.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Hill Country Retreats</h5>
+                            <p style="color: #0d6efd;">Escape to the serene hill country of Sri Lanka with our retreats amidst lush tea plantations, rolling mountains, and cascading waterfalls.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Wildlife and Nature Safaris -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="wildlifeAndSafaris.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Wildlife and Nature Safaris</h5>
+                            <p style="color: #0d6efd;">Embark on thrilling safaris and explore the diverse wildlife and natural wonders of Sri Lanka, from leopards in Yala National Park to whale watching off Mirissa.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Adventure and Thrills -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="adventureAndThrills.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Adventure and Thrills</h5>
+                            <p style="color: #0d6efd;">Experience adrenaline-pumping adventures in Sri Lanka, from hiking Adam's Peak to surfing in Arugam Bay.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Wellness and Ayurveda -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="wellnessAndAyurveda.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Wellness and Ayurveda</h5>
+                            <p style="color: #0d6efd;">Rejuvenate your mind, body, and soul with ancient Ayurvedic treatments and wellness retreats in Sri Lanka.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Culinary Adventures -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="culinaryAdventures.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Culinary Adventures</h5>
+                            <p style="color: #0d6efd;">Embark on a culinary journey through Sri Lanka's vibrant flavors and spices, from local markets to cooking classes.</p>
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- Train Journeys -->
+                <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a href="trainJourneys.php" class="service-item rounded pt-3 text-decoration-none" data-toggle="modal" data-target="#exampleModal" style="background-color: #ffffff !important; display: block;">
+                        <div class="p-4">
+                            <i class="fa fa-3x fa-hotel text-info m-0 mb-4"></i>
+                            <h5>Train Journeys</h5>
+                            <p style="color: #0d6efd;">Embark on scenic train rides through Sri Lanka's picturesque landscapes, from the Hill Country to the coastal regions.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
-
-
-
-
-
-     <!-- Footer Start -->
+       <!-- Footer Start -->
        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">

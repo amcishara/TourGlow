@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -128,14 +128,163 @@
     </div>
     <!-- Navbar & Hero End -->
 
+    <div class="post container mt-0">
+        <!-- Post 1 -->
+        <!-- Modal -->
+        <div class="modal fade" id="sigiriyaModal" tabindex="-1" aria-labelledby="sigiriyaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="sigiriyaModalLabel">Sigiriya: Sri Lanka's Ancient Fortress</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <iframe src="sigiriyaPop.php" frameborder="0" style="width: 100%; height: 500px;"></iframe>
+                        <div class="input-group mt-3">
+                            <input type="text" class="form-control" placeholder="Add a comment" aria-label="Add a comment" aria-describedby="button-addon2" id="commentInput">
+                        </div>
+                        <div class="input-group mt-3">
+                            <button class="btn btn-outline-info mb-5" type="button" id="commentButton">Comment</button>
+                        </div>
+                        <ul id="commentList"></ul>
+                        <button type="button" class="btn btn-outline-info mb-5" id="likeButton"><i class="far fa-thumbs-up"></i> Like <span id="likeCount">0</span></button>
+                        <span id="commentCount " class="mt-2">0 Comments</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Post box -->
+        <div class="post-box tech" data-bs-toggle="modal" data-bs-target="#sigiriyaModal" style="max-width: 400px; margin: 0 auto;">
+            <img src="sigiriya/Sigiriya.jpg" alt="" class="post-img">
+            <h2 class="text-info category mt-3">Sigiriya <i class="fa fa-map-marker-alt"></i></h2>
+            <a href="#" class="post-title">Discover the Marvels of Sigiriya: Sri Lanka's Ancient Fortress</a>
+            <span class="post-date">12 Feb 2024</span>
+            <p class="post-description">Sigiriya, also known as Lion Rock, is a UNESCO World Heritage Site and one of Sri Lanka's most awe-inspiring destinations. This ancient rock fortress, dramatically rising from the surrounding plains, holds a captivating blend of history, engineering marvels, and natural beauty.</p>
+            <div class="profile">
+                <img src="img/team-2.jpg" alt="" class="profile-img">
+                <span class="profile-name">kathy</span>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    const commentInput = document.getElementById("commentInput");
+    const commentButton = document.getElementById("commentButton");
+    const commentList = document.getElementById("commentList");
+    const likeButton = document.getElementById("likeButton");
+    const likeCount = document.getElementById("likeCount");
+    const commentCount = document.getElementById("commentCount");
 
+    commentButton.addEventListener("click", function () {
+        // Your existing event listener code...
+        const commentText = commentInput.value.trim();
+        if (commentText !== "") {
+            const commentItem = document.createElement("li");
+            const profileImg = document.createElement("img");
+            profileImg.src = "img/team-2.jpg";
+            profileImg.alt = "Profile Picture";
+            profileImg.className = "profile-img"; // Add class for styling
+            const commenterName = document.createElement("span");
+            commenterName.textContent = "kathy";
+            commenterName.className = "profile-name"; // Add class for styling
+            const commentContent = document.createElement("p");
+            commentContent.textContent = commentText;
+            commentItem.appendChild(profileImg);
+            commentItem.appendChild(commenterName);
+            commentItem.appendChild(commentContent);
+            commentList.appendChild(commentItem);
+            commentInput.value = "";
+            updateCommentCount();
+        }
+    });
 
+    // Function to update comment count...
+    function updateCommentCount(count) {
+        commentCount.innerText = count + " Comments";
+    }
 
+    // Update like count function...
+    function updateCommentCount() {
+        const commentItems = commentList.children;
+        commentCount.textContent = commentItems.length + " Comments";
+    }
 
+    likeButton.addEventListener("click", function() {
+        let count = parseInt(likeCount.textContent);
+        count++;
+        likeCount.textContent = count;
+    });
+    // Your existing JavaScript code goes here...
 
+    // Styling for profile pictures
+    const style = document.createElement('style');
+    style.innerphp = `
+        .comment-container {
+            display: flex;
+            align-items: flex-start; /* Adjust alignment */
+            margin-bottom: 10px; /* Adjust margin as needed */
+        }
 
-     <!-- Footer Start -->
-       <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        .profile-img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px; /* Adjust margin as needed */
+            margin-bottom: 0px;
+        }
+
+        .profile-name {
+            font-weight: bold;
+            margin-bottom: 5px; /* Adjust margin as needed */
+        }
+
+        .comment-content {
+            margin-left: auto;
+            text-align: right; /* Align comments to the right */
+        }
+
+        #likeCount, #commentCount {
+            display: inline-block;
+            margin-left: 10px; /* Adjust margin as needed */
+        }
+
+        #likeButton, #commentButton {
+            background-color: #007bff; /* Update to match your website color */
+            color: #ffffff; /* Update to match your website color */
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+        #likebutton, #commentCount {
+            flex-wrap=wrap;
+            display: inline-block;
+            vertical-align: middle;}
+            .modal-body #likeCount, .modal-body #commentCount {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px; /* Adjust margin as needed */
+        }
+
+        .modal-body #likeButton, .modal-body #commentButton {
+            background-color: #007bff; /* Update to match your website color */
+            color: #ffffff; /* Update to match your website color */
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 10px; /* Adjust margin as needed */
+        }
+    `;
+    document.head.appendChild(style);
+});
+
+    </script>
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
@@ -185,8 +334,10 @@
                     <h4 class="text-white mb-3">Newsletter</h4>
                     <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
                     <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-info py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-info py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -198,10 +349,10 @@
                         &copy; <a class="border-bottom" href="#">TourGlow</a>, All Right Reserved.
 
                         <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-                      </a>
+                        </a>
                     </div>
                     <div class="col-md-6 text-center text-md-end">
-                       
+
                     </div>
                 </div>
             </div>

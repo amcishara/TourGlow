@@ -105,7 +105,7 @@
                     </div>
                    
                 </div>
-                <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a>
+                <!-- <a href="" class="btn btn-info rounded-pill py-2 px-4">Register</a> -->
             </div>
         </nav>
 
@@ -129,6 +129,141 @@
     <!-- Navbar & Hero End -->
 
 
+<!-- Testimonial Start -->
+<div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container">
+        <div class="text-center">
+            <h6 class="section-title bg-white text-center text-info m-0 px-3">User Reviews</h6>
+            <h1 class="mb-5">Our Clients Say!!!</h1>
+        </div>
+        <div class="carousel position-relative">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" alt="Testimonial 1">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" alt="Testimonial 2">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" alt="Testimonial 3">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" alt="Testimonial 4">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-1.jpg" alt="Testimonial 1">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-2.jpg" alt="Testimonial 2">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-3.jpg" alt="Testimonial 3">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="testimonial-item bg-white text-center border p-4">
+                        <img class="bg-white rounded-circle shadow p-1 mx-auto mb-3" src="img/testimonial-4.jpg" alt="Testimonial 4">
+                        <h5 class="mb-0">John Doe</h5>
+                        <p>New York, USA</p>
+                        <div class="star-feedback">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                        </div>
+                        <p class="mt-2 mb-0">"Unleash Adventure Craft unforgettable memories in extraordinary destinations. Your journey starts now."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+<!-- Testimonial End -->
 
 
 
