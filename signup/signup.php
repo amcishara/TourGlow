@@ -102,7 +102,7 @@
     </script>
 </head>
 <body>
-    <form action="signup-check.php" method="post" onsubmit="return validatePassword()">
+    <form action="signup-check.php" method="post" onsubmit="return validatePassword()" style="max-width: 500px; margin: 0 auto;">
         <h2>SIGN UP</h2>
         <?php if (isset($_GET['error'])) { ?>
             <p class="error"><?php echo $_GET['error']; ?></p>

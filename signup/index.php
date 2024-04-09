@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-     <form action="login.php" method="post">
+     <form action="login.php" method="post" style="max-width: 500px; margin: 0 auto; margin-top: 50px;">
      	<h2>LOGIN</h2>
      	<?php if (isset($_GET['error'])) { ?>
      		<p class="error"><?php echo $_GET['error']; ?></p>
